@@ -86,6 +86,28 @@ public class Main {
 		      System.out.println("Eu, Davi gosto de estudar Algoritmos!");
 		      System.out.println("Eu, Davi gosto de estudar Algoritmos!");
 		      System.out.println("Eu, Davi gosto de estudar Algoritmos!");
-		      System.out.println("Eu, Davi gosto de estudar Algoritmos!");çkg
+		      System.out.println("Eu, Davi gosto de estudar Algoritmos!");
+
+
+4° Quesito
+
+public static void main(String[] args) {
+		 Scanner tec = new Scanner(System.in);
+		        
+		 System.out.println("Escreva 20 números:");
+
+	        
+	        for (int i = 0; i < 20; i++) {
+	            int numeros = tec.nextInt(); 
+
+	            if (numeros > 8) {
+	                System.out.println(numeros); 
+	            }
+	        }
+
+	        tec.close();
+	
+		     }
+		 }
 
 
