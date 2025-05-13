@@ -97,19 +97,50 @@ public static void main(String[] args) {
 		 System.out.println("Escreva 20 números:");
 
 	        
-	        for (int i = 0; i < 20; i++) {
+	        for (int i = 0; i < 20;) {
 	            int numeros = tec.nextInt(); 
 
 	            if (numeros > 8) {
 	                System.out.println(numeros); 
 	            }
 	        }
-
-	        tec.close();
-	
 		     }
 		 }
 
 
 5° Quesito
+
+
+
+
+
+8° Quesito
+	public static void main(String[] args) {
+		 Scanner tec = new Scanner(System.in);
+		 
+		 System.out.println("Bem-Vindo a nossa Casa de Câmbio");
+	        
+	        
+	        System.out.println("Escreva quantos dólares quer converter");
+	        int converter1 = tec.nextInt();
+	        
+	  
+	        System.out.println("Escreva quantos yenes quer converter");
+	        int converter2 = tec.nextInt();
+	        
+	      
+	        double valorDolar = 5.68;
+	        double valorYener = 26.04;
+	        
+	       
+	        double totalDolares = converter1 * valorDolar;
+	        double totalYenes = converter2 * valorYener;
+	        
+	       
+	        System.out.printf("O valor de %d dólares é equivalente a %.2f reais.%n", converter1, totalDolares);
+	        System.out.printf("O valor de %d yenes é equivalente a %.2f reais.%n", converter2, totalYenes);
+	
+		     }
+		 }
+
 
