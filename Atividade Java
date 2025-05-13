@@ -1,0 +1,31 @@
+1° Quesito
+
+public class Main {
+
+	public static void main(String[] args) {
+		 Scanner tec = new Scanner(System.in);
+	       
+	       System.out.println("Vamos Converter");
+	       System.out.println("Coloque a sua Idade");
+	       int anos = tec.nextInt();
+	       
+	       System.out.println("Coloque a sua idade em Meses");
+	       int meses = tec.nextInt();
+	       
+	       System.out.println("Coloque a sua idade em Dias");
+	       int dias = tec.nextInt();
+	       
+	       
+	       int idadeEmDias = (anos * 365) + (meses * 30) + dias;
+	       
+	       System.out.println("Sua idade em dias é" + idade);
+			 
+
+	}
+}
+
+
+2° Quesito
+
+
+
